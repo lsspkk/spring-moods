@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+
+body {
+    font-family: sans-serif;
+    max-width: 60%;
+}
+
+h6 {
+    font-family: monospace;
+    letter-spacing: 0.4;
+}
+

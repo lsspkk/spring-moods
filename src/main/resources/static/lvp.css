@@ -1,0 +1,45 @@
+.moodWidget .moodButtons {
+    display: flex;
+    flex-direction: row;
+    clear: both;
+    margin: 10px 0;
+}
+
+.square button {
+    background: #d1d1d2;
+    border: 1px solid #bbbbbc;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 64px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 64px;
+}
+.square.selected button {
+    background: #9dc5a1;
+}
+.newLine {
+    width: 100%;
+}
+.square:focus {
+    outline: none;
+}
+.moods span {
+    margin-right: 40px;
+    display: inline-block;
+}
+body {
+    max-width: 480px;
+    margin: 0 auto;
+}
+.moodWidget div {
+    display: block;
+    float: none;
+}
+.test {
+    display: none;
+}
